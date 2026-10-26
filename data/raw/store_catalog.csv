@@ -1,0 +1,5 @@
+store_id,store_name,store_type,traffic_factor,location
+STORE_01,Metro Downtown Supermarket,Supermarket,1.25,Urban
+STORE_02,Suburban Center Hypermarket,Hypermarket,1.5,Suburban
+STORE_03,Transit Station Express Mart,Express,0.75,Urban Transit
+STORE_04,Westside Community Grocery,Supermarket,1.05,Suburban

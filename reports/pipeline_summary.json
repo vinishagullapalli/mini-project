@@ -1,0 +1,45 @@
+{
+  "evaluation_metrics": {
+    "random_forest": {
+      "rmse": 114.079,
+      "mae": 57.041,
+      "wmape_pct": 15.69,
+      "mape_pct": 33.54,
+      "r2_score": 0.6181,
+      "forecast_bias_pct": 5.43
+    },
+    "ridge": {
+      "rmse": 116.856,
+      "mae": 60.811,
+      "wmape_pct": 16.73,
+      "mape_pct": 36.12,
+      "r2_score": 0.5992,
+      "forecast_bias_pct": 8.32
+    },
+    "naive_4w": {
+      "rmse": 119.67,
+      "mae": 76.403,
+      "wmape_pct": 21.02,
+      "mape_pct": 34.46,
+      "r2_score": 0.5797,
+      "forecast_bias_pct": 3.8
+    },
+    "persistence": {
+      "rmse": 156.836,
+      "mae": 101.154,
+      "wmape_pct": 27.83,
+      "mape_pct": 44.28,
+      "r2_score": 0.2781,
+      "forecast_bias_pct": 5.5
+    }
+  },
+  "replenishment_summary": {
+    "total_skus": 40,
+    "reorder_count": 40,
+    "total_order_cost": 84277.19999999998,
+    "total_expected_margin": 68036.34,
+    "stockout_alerts": 40,
+    "perishability_alerts": 14
+  },
+  "ai_executive_briefing": "**Weekly Replenishment Snapshot (40 SKUs)**  \n- **All 40 SKUs flagged for reorder** – every item in the assortment needs to be restocked.  \n- **Capital committed:** **$84,277.20** to cover the full reorder.  \n- **Projected contribution margin:** **$68,036.34** (≈ 80 % margin on the committed spend).  \n- **Urgent stock‑out alerts:** **40** (one per SKU) – immediate risk of lost sales.  \n- **Perishability alerts:** **14** SKUs (35 % of the list) – short‑shelf‑life items requiring fast turn‑over.\n\n---\n\n### Priority Procurement Actions & Working‑Capital Levers  \n\n- **Fast‑track full‑reorder execution for all 40 SKUs** – leverage existing vendor contracts to secure same‑day PO issuance and expedited inbound logistics, eliminating the 40 stock‑out alerts and protecting the projected $68 K margin.  \n\n- **Prioritize the 14 perishable SKUs** with a “rush‑"
+}

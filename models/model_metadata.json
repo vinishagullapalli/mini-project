@@ -1,0 +1,83 @@
+{
+  "feature_columns": [
+    "demand_lag_1w",
+    "demand_lag_2w",
+    "demand_lag_3w",
+    "demand_lag_4w",
+    "demand_lag_8w",
+    "demand_lag_52w",
+    "demand_rolling_mean_2w",
+    "demand_rolling_mean_4w",
+    "demand_rolling_mean_8w",
+    "demand_rolling_mean_12w",
+    "demand_rolling_std_4w",
+    "demand_rolling_std_8w",
+    "demand_rolling_min_4w",
+    "demand_rolling_max_4w",
+    "demand_ema_4w",
+    "demand_momentum_2_8",
+    "avg_unit_price",
+    "avg_discount_pct",
+    "max_discount_pct",
+    "promo_days_count",
+    "holiday_days_count",
+    "target_next_week_is_promo",
+    "target_next_week_holiday",
+    "calendar_week",
+    "calendar_month",
+    "calendar_quarter",
+    "sin_week",
+    "cos_week",
+    "sin_month",
+    "cos_month",
+    "price_ratio_to_base",
+    "unit_cost",
+    "is_perishable",
+    "shelf_life_days",
+    "store_id_STORE_01",
+    "store_id_STORE_02",
+    "store_id_STORE_03",
+    "store_id_STORE_04",
+    "category_Bakery",
+    "category_Beverages",
+    "category_Dairy",
+    "category_Pantry",
+    "category_Produce",
+    "category_Snacks",
+    "store_type_Express",
+    "store_type_Hypermarket",
+    "store_type_Supermarket"
+  ],
+  "categorical_columns": [
+    "store_id",
+    "category",
+    "store_type"
+  ],
+  "categories_mapping": {
+    "store_id": [
+      "STORE_01",
+      "STORE_02",
+      "STORE_03",
+      "STORE_04"
+    ],
+    "category": [
+      "Bakery",
+      "Beverages",
+      "Dairy",
+      "Pantry",
+      "Produce",
+      "Snacks"
+    ],
+    "store_type": [
+      "Express",
+      "Hypermarket",
+      "Supermarket"
+    ]
+  },
+  "params": {
+    "n_estimators": 150,
+    "max_depth": 12,
+    "min_samples_split": 4,
+    "min_samples_leaf": 2
+  }
+}

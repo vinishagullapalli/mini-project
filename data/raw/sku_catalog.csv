@@ -1,0 +1,11 @@
+sku_id,sku_name,category,base_price,unit_cost,is_perishable,shelf_life_days,base_daily_demand,price_elasticity
+SKU_DAIRY_01,Organic Whole Milk 1 Gal,Dairy,4.29,2.5,1,12,45,1.6
+SKU_DAIRY_02,Greek Yogurt Vanilla 32oz,Dairy,4.99,2.9,1,21,30,1.4
+SKU_BEV_01,Cold-Pressed Orange Juice 59oz,Beverages,4.79,2.8,1,25,35,1.8
+SKU_BEV_02,Sparkling Mineral Water 12-pk,Beverages,6.99,3.8,0,365,50,2.1
+SKU_BAKE_01,Artisanal Sourdough Loaf,Bakery,3.99,1.8,1,5,40,1.3
+SKU_SNACK_01,Organic Roasted Sea Salt Almonds 16oz,Snacks,7.99,4.5,0,180,25,1.9
+SKU_PROD_01,Hass Avocados Bag 4-ct,Produce,4.49,2.6,1,7,55,2.0
+SKU_PROD_02,Gala Apples Bag 3-lb,Produce,5.29,3.0,1,14,38,1.5
+SKU_PANTRY_01,Extra Virgin Olive Oil 500ml,Pantry,9.99,5.8,0,540,20,1.2
+SKU_PANTRY_02,Bronze-Cut Penne Rigate 16oz,Pantry,2.49,1.1,0,720,60,1.7
